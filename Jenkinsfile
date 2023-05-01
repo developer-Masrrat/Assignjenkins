@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                dir("C:\Users\masrratnoor\Desktop\assignForJenkins\assignForJenkins/") {
+                dir("\Users\masrratnoor\Desktop\assignForJenkins\assignForJenkins/") {
                 sh 'mvn -B -DskipTests clean package'
                 }
             
